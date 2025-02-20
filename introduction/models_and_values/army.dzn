@@ -1,0 +1,4 @@
+budget = 20000;
+
+% so the dzn file is data file for mzn file
+% or we can also use the -D flag like this -D"budget = 2000;"

@@ -13,7 +13,7 @@ solve satisfy;
 % there is no objective means just find a solution
 % did not print ====== in the output means it may have some other solution
 % that the model did not search even for
-% so we should run: "minizinc -all-solutions count.mzn" if we want to see all
+% so we should run: "minizinc --all-solutions count.mzn" if we want to see all
 % the possible solutions
 
 % remember: 	
