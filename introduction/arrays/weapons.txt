@@ -1,0 +1,2 @@
+so the problem is to maximize the power of the army with the constraint that every unit have a exact capacity and have a time to be done (resources)
+as we can see in the picture
