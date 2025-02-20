@@ -1,0 +1,26 @@
+par int: budget = 10000;
+
+var 0..1000: F;
+var 0..400: L;
+var 0..500: Z;
+var 0..150: J;
+
+constraint 13*F + 21*L + 17*Z + 100*J <= budget;
+
+solve maximize 6*F + 10*L + 8*Z + 40*J;
+
+output [ "F = \(F), L = \(L), Z = \(Z), J = \(J)"];
+
+
+% those are the same:
+% 	var 0..4: i;
+% 	var {0,1,2,3,4}: i;
+% 	var i; constraint i >= 0; constraint i <= 4
+
+% show (v) will show the value of v as a string
+% \(v) show v inside a string literal
+% "house" ++ "boat" concatenate
+% ------- means find a solution
+% ======= means this is the best solution
+% 
+
