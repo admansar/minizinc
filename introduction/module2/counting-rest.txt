@@ -1,0 +1,15 @@
+Problem Context
+- The exercice presents an interesting historical context through a story about three brothers trying to count their remaining soldiers using an ancient Chinese counting method, which leads to a mathematical problem involving modular arithmetic.
+
+Technical Concepts Covered
+- MiniZinc Programming
+
+- Satisfaction problems vs. optimization problems
+- Model construction without output statements
+- Using the -a flag for all solutions
+- Mathematical Concepts
+
+- Modular arithmetic
+- Chinese Remainder Theorem
+- Simultaneous congruences
+
