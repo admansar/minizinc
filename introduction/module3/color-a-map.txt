@@ -1,0 +1,1 @@
+coloring a map with the same color with no intesections with the neighbours
